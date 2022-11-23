@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+/*Barra de Navegacion*/
+.barra-navegacion{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.navegacion{
+    text-align: center;
+}
+/*Primera Página*/
+.texto__bienvenida{
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+.logo__principal{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+/*Segunda Página*/
+
+
+
+
+
+/*Tercera Página*/
+
+
+
+
+
+/*Cuarta Página*/
+
+
+
+
+
+
+/*Quinta Página*/
+
+
+
+
+
+/*pie de pagina*/
+.footer{
+    background-color: black;
+}
+.pie{
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+}
+
+.imagen__pie{
+    background-position: 10px 10px;
+    width: 4px;
+
+}
+
+.Copyright{
+    font-size: 10px;
+    text-align: left;
+    color: white;
+    text-align: justify;
+}
+
+
