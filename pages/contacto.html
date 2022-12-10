@@ -5,61 +5,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Filo Street Food es un restó de comida estilo callejera de distintas partes del mundo.">
+    <meta name="author" content="Leonel Martín Mezanzano">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <!--estilo principal-->
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Contacto</title>
+    <!--enlaces-internos-->
+    <a href="./pages/menu.html"></a>
+    <a href="./pages/nosotros.html"></a>
+    <a href="./pages/vauchers.html"></a>
+    <a href="../index.html"></a>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="../image/logo/favicon.ico">
 </head>
 
 <body>
-    <!--barra navegación-->
-    <nav>
-        <a href="/index.html">Home</a>
-        <a href="/pages/menu.html">Menu</a>
-        <a href="/pages/nosotros.html">Nosotros</a>
-        <a href="/pages/vauchers.html">Vauchers para regalar</a>
-    </nav>
+    <header>
+        <!--barra navegación-->
+        <nav class="navegacion__pages">
+            <div>
+                <ul>
+                    <li><a href="../index.html" class="barra-navegacion__pages">Home</a></li>
+                    <li><a href="../pages/menu.html" class="barra-navegacion__pages">Menu</a></li>
+                    <li><a href="../pages/nosotros.html" class="barra-navegacion__pages">Nosotros</a></li>
+                    <li><a href="../pages/vauchers.html" class="barra-navegacion__pages">Vauchers para regalar</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
     <!--Título de página-->
     <nav>
-        <h1>
+        <h1 class="titulo__pages">
             Contacto
         </h1>
     </nav>
-
-    <h2>Dejanos tu consulta</h2>
-
-    <form action="" name="" method="" target="" enctype="" novalidate="">
-
-
-    </form>
+    <nav>
+        <h2 class="subtitulo__contacto">
+            Dejanos tu consulta
+        </h2>
+    </nav>
+    <!--Nuestros datos-->
+    <div class="datos__contacto">
+        <p>
+            Tel: +54 (0351) xxx xx xx
+        </p>
+        <p>
+            E-mail: Filo.stf@gmail.com
+        </p>
+    </div>
+    <!--Formulario de contacto-->
+    <div class="formulario__contacto">
+        <form name="contacto">
+            <p>
+                <label for="name">Nombre:</label><br>
+                <input type="text" placeholder="Ingrese su nombre" required>
+            </p>
+            <p>
+                <label for="lastname">Apellido:</label><br>
+                <input type="text" placeholder="Ingrese su apellido" required>
+            </p>
+            <p>
+                <label for="text">E-mail</label><br>
+                <input type="email" placeholder="Ingrese su e-mail" required>
+            </p>
+            <p>
+                <label for="consulta">Consulta:</label><br>
+                <textarea name="" id="" cols="50" rows="20"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit">
+            </p>
+        </form>
+    </div>
+    <!--Fin formulario de contacto-->
+    <!--Horarios-->
+    <div class="horarios__contacto">
+        <h4>HORARIOS:</h4>
+        <p>
+            martes a viernes de 12 a 14.30hs
+        </p>
+        <p>
+            martes a domingo de 20 a 23hs
+        </p>
+        <p>
+            lunes cerrado
+        </p>
+    </div>
+    <!--Maps de Google-->
+    <div class="map__responsive">
+        <p>Nuestra ubicación:</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8315421197963!2d-64.1710317827118!3d-31.418767074735303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f75b747e475380f!2sFILO%20Street%20Food!5e0!3m2!1ses-419!2sar!4v1669755246433!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
     <!--comienzo pie de página-->
+
     <footer class="footer">
 
-        <div class="imagen__pie">
-            <img src="./image/logo/Filo - Logo sec Blanco.png" alt="logopie" width="50" height="50">
+        <div class="footer__logo">
+            <img class="footer_logo-img" src="../image/logo/Filo - Logo Blanco.png" alt="logopie">
         </div>
 
-        <table class="pie" cellpading="40px" cellspacing="10px">
-            <tr>
-                <th>Contacto</th>
-                <th>Dirección</th>
-            </tr>
-            <tr>
-                <td>351 111 11 11</td>
-                <td>León Morra 99</td>
-            </tr>
-            <tr>
-                <td>Instagram: @filo.stf</td>
-                <td>Barrio Juniors, Córdoba</td>
-            </tr>
-        </table>
-        <br>
-
-        <p class="Copyright">
-            Todos los derechos reservados, Leonel Martín Mezanzano
-        </p>
-
+        <div>
+            <table class="footer__contact">
+                <tr>
+                    <th>Contacto</th>
+                    <th>Dirección</th>
+                </tr>
+                <tr>
+                    <td>351 111 11 11</td>
+                    <td>León Morra 99</td>
+                </tr>
+                <tr>
+                    <td>Instagram: @filo.stf</td>
+                    <td>Barrio Juniors, Córdoba</td>
+                </tr>
+            </table>
+        </div>
+        <div class="Copyright">
+            <p>
+                Todos los derechos reservados, Leonel Martín Mezanzano
+            </p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
     </footer>
+
 </body>
 
 </html>

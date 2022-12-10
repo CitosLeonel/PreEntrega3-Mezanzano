@@ -1,29 +1,138 @@
-body{
+body {
     background-color: black;
 }
 
 /*Barra de Navegacion*/
-.barra-navegacion{
-    display: inline-block;
+
+.navegacion__home {
     background-color: black;
+
+}
+
+.barra-navegacion {
+    display: inline-block;
     color: white;
     padding: 10px 30px;
     text-decoration: none;
+
+}
+
+.navegacion__pages {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.barra-navegacion__pages {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+/*Página principal*/
+
+.bienvenida {
+    color: white;
+    align-items: center;
+    display: flexbox;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+
+}
+
+.bienvenida__texto {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo__home-img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    display:inline-block;
+    justify-items: center;
     text-align: center;
 }
-.navegacion{
-    text-align: center;
-}
-/*Primera Página*/
-.texto__bienvenida{
+
+.reseñas {
+    font-family: 'Roboto Mono', monospace;
     font-size: 40px;
-    font-family: fantasy;
+    color: white;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+    display: flexbox;
     text-align: center;
+}
+
+.img__carousel {
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    justify-items: center;
+    display: flexbox;
+}
+
+
+/*Titulos Pages*/
+.titulo__pages {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/*Página Menú*/
+.pagina__menu {
+    display: flex-flow
+}
+
+.menu__img {
+    display: flexbox;
+}
+
+
+
+
+/*Página Nosotros*/
+.sobre__nosotros-sub {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
     color: white;
 }
-.logo__principal{
-    align-items: center;
-    text-align: center;
+
+
+.text__nosotros {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+/*Página Vauchers*/
+
+
+
+.vaucher__tarjeta {
+    width: 500px;
+    height: 600px;
+
+}
+
+.vaucher__texto {
+    color: white;
+
 }
 
 
@@ -31,52 +140,78 @@ body{
 
 
 
-/*Segunda Página*/
+/*Página Contacto*/
+.subtitulo__contacto {
 
+    color: white;
 
+}
 
+.datos__contacto {
 
+    color: white;
+}
 
-/*Tercera Página*/
+.formulario__contacto {
 
+    color: white;
+}
 
+.horarios__contacto {
 
+    color: white;
+}
 
+.map__responsive {
 
-/*Cuarta Página*/
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
 
+}
 
+.map__responsive iframe {
 
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 
-
-
-/*Quinta Página*/
-
+}
 
 
 
 
 /*pie de pagina*/
-.footer{
+.footer {
     background-color: black;
+    position: relative;
+    padding: 20px;
+    margin: auto;
 }
-.pie{
+
+.footer__logo {
+    width: 10px;
+
+}
+
+.footer_logo-img {
+    width: 50px;
+
+}
+
+.footer__contact {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     font-size: 15px;
     color: white;
 }
 
-.imagen__pie{
-    background-position: 10px 10px;
-    width: 4px;
-
-}
-
-.Copyright{
+.Copyright {
     font-size: 10px;
     text-align: left;
     color: white;
-    text-align: justify;
+
 }
-
-
