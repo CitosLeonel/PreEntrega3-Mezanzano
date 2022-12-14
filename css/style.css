@@ -6,6 +6,7 @@ body {
 
 .nav {
     background-color: black;
+    padding: 20px;
 
 }
 
@@ -97,11 +98,10 @@ body {
 
 
 
-
 /*Página Menú*/
 .nuestra__carta {
-    padding: 10px;
-    
+    padding: 20px;
+
 }
 
 .nuestra__carta h1 {
@@ -111,29 +111,37 @@ body {
     font-weight: bold;
 }
 
-.grid__conteiner-menu {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
-    grid-auto-flow: row;
-    grid-row-gap: 15px;
-    grid-column-gap: 25pxpx;
-    
-}
+.felx__conteiner-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
 
-.grid__item-menu {
-    border: 1px
+    padding: 40px;
+    margin: 40px;
+
+    background-color: beige;
 
 }
 
-.menu__img {
-    display: flexbox;
+.flex__item-menu {
+    margin: 40px;
 }
-
 
 
 
 /*Página Nosotros*/
+.sobre__nosotros {
+    padding: 20px;
+}
+
+.sobre__nosotros h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
 .sobre__nosotros-sub {
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
@@ -152,8 +160,16 @@ body {
 
 
 /*Página Vauchers*/
+.vauchers {
+    padding: 20px;
+}
 
-
+.vauchers h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
 
 .vaucher__tarjeta {
     width: 500px;
@@ -172,15 +188,46 @@ body {
 
 
 /*Página Contacto*/
-.subtitulo__contacto {
 
-    color: white;
-
+.contacto {
+    padding: 20px;
+    
 }
 
-.datos__contacto {
+.contacto h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
 
+.subtitulo {
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.subtitulo h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.conteiner__formulario {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+
+
+
+.datos__contacto p {
     color: white;
+    
+    margin-left: 40px;
 }
 
 .formulario__contacto {
@@ -224,20 +271,24 @@ body {
 }
 
 .footer__logo {
+    margin-top: 20px;
     width: 10px;
     padding: 10px;
 
 }
 
-.footer__logo-img {
+.footer__logo img {
     width: 50px;
 
 }
 
 .footer__table {
 
+    padding: 10px;
+
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    align-items: center;
     font-size: 15px;
     color: white;
 }
