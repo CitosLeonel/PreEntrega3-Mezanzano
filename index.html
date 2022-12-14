@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--estilo principal-->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
     <!--enlaces-internos-->
     <a href="./pages/menu.html"></a>
     <a href="./pages/nosotros.html"></a>
@@ -33,27 +35,27 @@
 
     <!--Titulo bienvenida-->
 
-    <div class="bienvenida">
-        <h1 class="bienvenida__texto">
+    <div class="titulo__bienvenida">
+        <h1>
             BIENVENIDOS A LA EXPERIENCIA
         </h1>
     </div>
 
-    <div>
-        <img class="logo__home-img" src="./image/logo/Filo - Logo sec Blanco.png" alt="logoprincipal">
+    <div class="logo__bienvenida">
+        <img class="logo__bienvenida-img" src="./image/logo/Filo - Logo sec Blanco.png" alt="logoprincipal">
     </div>
 
     <!--barra navegacion-->
 
-    <nav class="navegacion__home">
-        <div>
-            <ul>
-                <li class="barra-navegacion"><a href="./pages/menu.html">Menu</a></li>
-                <li class="barra-navegacion"><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li class="barra-navegacion"><a href="./pages/vauchers.html">Vauchers para regalar</a></li>
-                <li class="barra-navegacion"><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </div>
+    <nav class="nav">
+
+        <ul class="nav__ul">
+            <li class="nav__li"><a href="./pages/menu.html">Menu</a></li>
+            <li class="nav__li"><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li class="nav__li"><a href="./pages/vauchers.html">Vauchers para regalar</a></li>
+            <li class="nav__li"><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+
     </nav>
 
     <!--reseñas-->
@@ -61,36 +63,36 @@
         Reseñas</h2>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="img__carousel" src="./image/reseñas/reseña1.JPG" class="d-block w-100" alt="reseña1">
-          </div>
-          <div class="carousel-item">
-            <img class="img__carousel" src="./image/reseñas/reseña2.JPG" class="d-block w-100" alt="reseña2">
-          </div>
-          <div class="carousel-item">
-            <img class="img__carousel" src="./image/reseñas/reseña3.JPG" class="d-block w-100" alt="reseña3">
-          </div>
+            <div class="carousel-item active">
+                <img class="img__carousel" src="./image/resenas/reseña1.JPG" class="d-block w-100" alt="reseña1">
+            </div>
+            <div class="carousel-item">
+                <img class="img__carousel" src="./image/resenas/reseña2.JPG" class="d-block w-100" alt="reseña2">
+            </div>
+            <div class="carousel-item">
+                <img class="img__carousel" src="./image/resenas/reseña3.JPG" class="d-block w-100" alt="reseña3">
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
 
     <!--comienzo pie de página-->
 
     <footer class="footer">
 
         <div class="footer__logo">
-            <img class="footer_logo-img" src="./image/logo/Filo - Logo Blanco.png" alt="logopie">
+            <img class="footer__logo-img" src="../image/logo/Filo - Logo Blanco.png" alt="logopie">
         </div>
 
         <div>
-            <table class="footer__contact">
+            <table class="footer__table">
                 <tr>
                     <th>Contacto</th>
                     <th>Dirección</th>
@@ -105,9 +107,9 @@
                 </tr>
             </table>
         </div>
-        <div class="Copyright">
+        <div class="copyright">
             <p>
-                Todos los derechos reservados, Leonel Martín Mezanzano
+                Todos los derechos reservados, Leonel Martín Mezanzano R®
             </p>
         </div>
 
@@ -119,6 +121,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
