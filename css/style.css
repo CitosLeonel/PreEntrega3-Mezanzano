@@ -142,14 +142,19 @@ body {
     font-weight: bold;
 }
 
-.sobre__nosotros-sub {
+.quienes__somos {
+    padding: 18px;
+}
+
+.quienes__somos h2 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
+    font-size: 25px;
     color: white;
+
 }
 
 
-.text__nosotros {
+.sobre__nosotros-texto {
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     color: white;
