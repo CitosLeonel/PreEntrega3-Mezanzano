@@ -48,16 +48,16 @@ body {
 
 .logo__bienvenida {
     display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    
 
 }
 
 .logo__bienvenida-img {
     width: 400px;
     height: 400px;
-    object-fit: contain;
-    display: inline-block;
-    justify-items: center;
-    text-align: center;
 }
 
 .reseñas {
@@ -102,12 +102,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-
     padding: 40px;
     margin: 40px;
-
-    background-color: beige;
 
 }
 
@@ -147,16 +143,25 @@ body {
 
 
 /*Página Vauchers*/
-.vauchers {
-    padding: 20px;
-}
-
 .vauchers h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 40px;
     color: #ffffff;
     font-weight: bold;
+    padding: 20px;
 }
+
+.vauchers__conteiner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.vauchers {
+    padding: 20px;
+}
+
+
 
 .vaucher__tarjeta {
     width: 500px;
@@ -250,13 +255,14 @@ body {
 
 .footer__logo {
     margin-top: 20px;
-    width: 10px;
     padding: 10px;
 
 }
 
 .footer__logo img {
     width: 50px;
+    display: block;
+    margin-left: auto;
 
 }
 
