@@ -41,8 +41,8 @@ body {
 }
 
 .titulo__bienvenida h1 {
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    font-family: 'Bevan', cursive;
 
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .animate__animated.animate__backInDown {
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-duration: 3s;
 }
 
