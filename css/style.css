@@ -46,12 +46,17 @@ body {
 
 }
 
+@keyframes animate__backInDown {
+    
+
+}
+
 .logo__bienvenida {
     display: flex;
     justify-content: center;
     padding: 20px;
     margin-bottom: 40px;
-    
+
 
 }
 
@@ -70,7 +75,7 @@ body {
 }
 
 .reseñas h2 {
-    
+
     padding: 20px;
     font-family: 'Roboto Mono', monospace;
     font-size: 40px;
@@ -79,7 +84,7 @@ body {
 }
 
 .img__carousel {
-   
+
     justify-content: center;
     justify-items: center;
     display: flexbox;
@@ -118,8 +123,18 @@ body {
     font-weight: bold;
 }
 
-.quienes__somos {
-    padding: 18px;
+.sobre__nosotros-conteiner {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.grid__item {
+
+}
+
+.grid__item-img {
+
 }
 
 .quienes__somos h2 {
@@ -134,6 +149,8 @@ body {
     font-size: 18px;
     color: #ffffff;
 }
+
+
 
 
 /*Página Vauchers*/
@@ -151,6 +168,7 @@ body {
     flex-direction: column;
     align-content: center;
 }
+
 .vauchers {
     padding: 20px;
 }
