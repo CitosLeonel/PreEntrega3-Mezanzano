@@ -169,21 +169,29 @@ body {
 
 .vauchers__conteiner {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
 }
 
 .vauchers {
     padding: 20px;
+    margin: 20px;
+    overflow: hidden;
 }
 
 
 
 .vaucher__tarjeta {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
+    transition: 0.5s;
+    object-fit: cover;
 
+}
+
+.vaucher__tarjeta:hover {
+    transform: scale(1.5);
 }
 
 .vaucher__texto {
