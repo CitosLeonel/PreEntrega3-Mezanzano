@@ -51,6 +51,11 @@ body {
 
 }
 
+.animate__animated.animate__backInDown {
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+
 .logo__bienvenida {
     display: flex;
     justify-content: center;
