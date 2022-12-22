@@ -41,8 +41,8 @@
 </head>
 
 <body>
+    <!--inicio barra navegación-->
     <header>
-        <!--barra navegación-->
         <nav class="nav">
             <ul class="nav__ul">
                 <li class="nav__li"><a href="../index.html">Home</a></li>
@@ -52,75 +52,79 @@
             </ul>
         </nav>
     </header>
+    <!--fin barra navegación-->
 
-    <!--Título de página-->
-    <div class="contacto">
-        <h1>
-            Contacto
-        </h1>
-    </div>
-    <div class="subtitulo">
-        <h2>
-            Dejanos tu consulta
-        </h2>
-    </div>
+    <!--inicio contenido principal-->
+    <main>
+        <div class="contacto">
+            <h1>
+                Contacto
+            </h1>
+        </div>
+        <div class="subtitulo">
+            <h2>
+                Dejanos tu consulta
+            </h2>
+        </div>
 
-    <!--Nuestros datos-->
-    <div class="datos__contacto">
-        <p>
-            Tel: +54 (0351) xxx xx xx
-        </p>
-        <p>
-            E-mail: Filo.stf@gmail.com
-        </p>
-    </div>
+        <!--Nuestros datos-->
+        <div class="datos__contacto">
+            <p>
+                Tel: +54 (0351) xxx xx xx
+            </p>
+            <p>
+                E-mail: Filo.stf@gmail.com
+            </p>
+        </div>
 
-    <!--Formulario de contacto-->
-    <div class="conteiner__formulario">
-        <form name="contacto">
+        <!--Formulario de contacto-->
+        <div class="conteiner__formulario">
+            <form name="contacto">
+                <p>
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" placeholder="Ingrese su nombre" required>
+                </p>
+                <p>
+                    <label for="lastname">Apellido:</label><br>
+                    <input type="text" placeholder="Ingrese su apellido" required>
+                </p>
+                <p>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" placeholder="Ingrese su e-mail" required>
+                </p>
+                <p>
+                    <label for="consulta">Consulta:</label><br>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit">
+                </p>
+            </form>
+        </div>
+        <!--Fin formulario de contacto-->
+        <!--Horarios-->
+        <div class="horarios__contacto">
+            <h4>HORARIOS:</h4>
             <p>
-                <label for="name">Nombre:</label><br>
-                <input type="text" placeholder="Ingrese su nombre" required>
+                martes a viernes de 12 a 14.30hs
             </p>
             <p>
-                <label for="lastname">Apellido:</label><br>
-                <input type="text" placeholder="Ingrese su apellido" required>
+                martes a domingo de 20 a 23hs
             </p>
             <p>
-                <label for="email">E-mail</label><br>
-                <input type="email" placeholder="Ingrese su e-mail" required>
+                lunes cerrado
             </p>
-            <p>
-                <label for="consulta">Consulta:</label><br>
-                <textarea name="" id="" cols="50" rows="5"></textarea>
-            </p>
-            <p>
-                <input type="submit" name="submit">
-            </p>
-        </form>
-    </div>
-    <!--Fin formulario de contacto-->
-    <!--Horarios-->
-    <div class="horarios__contacto">
-        <h4>HORARIOS:</h4>
-        <p>
-            martes a viernes de 12 a 14.30hs
-        </p>
-        <p>
-            martes a domingo de 20 a 23hs
-        </p>
-        <p>
-            lunes cerrado
-        </p>
-    </div>
-    <!--Maps de Google-->
-    <div class="map__responsive">
-        <p>Nuestra ubicación:</p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8315421197963!2d-64.1710317827118!3d-31.418767074735303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f75b747e475380f!2sFILO%20Street%20Food!5e0!3m2!1ses-419!2sar!4v1669755246433!5m2!1ses-419!2sar"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        </div>
+        <!--Maps de Google-->
+        <div class="map__responsive">
+            <p>Nuestra ubicación:</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8315421197963!2d-64.1710317827118!3d-31.418767074735303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f75b747e475380f!2sFILO%20Street%20Food!5e0!3m2!1ses-419!2sar!4v1669755246433!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <!--fin contenido principal-->
 
     <!--comienzo pie de página-->
     <footer class="footer">
@@ -152,7 +156,9 @@
             </div>
         </div>
     </footer>
+    <!--fin pie de página-->
 
+    <!--scripts-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
