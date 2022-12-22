@@ -87,6 +87,7 @@ body {
     margin-bottom: 40px;
     text-align: center;
 }
+
 /*Página Menú*/
 .nuestra__carta {
     padding: 20px;
@@ -126,13 +127,9 @@ body {
     grid-template-rows: auto;
 }
 
-.grid__item {
+.grid__item {}
 
-}
-
-.grid__item-img {
-
-}
+.grid__item-img {}
 
 .quienes__somos h2 {
     font-family: 'Roboto Mono', monospace;
@@ -163,7 +160,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    
+
 }
 
 .vauchers {
@@ -171,8 +168,6 @@ body {
     margin: 20px;
     overflow: hidden;
 }
-
-
 
 .vaucher__tarjeta {
     width: 400px;
