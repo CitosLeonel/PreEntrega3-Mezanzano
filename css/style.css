@@ -183,7 +183,7 @@ body {
 }
 
 .vaucher__tarjeta:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 
 .vaucher__texto {
