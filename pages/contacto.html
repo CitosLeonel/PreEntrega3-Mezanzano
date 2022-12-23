@@ -61,76 +61,83 @@
                 Contacto
             </h1>
         </div>
+
+        <div class="datos__contacto">
+            <p>
+                Tel:<a href="tel:+54 (0351) xxx xx xx">+54 (0351) xxx xx xx</a>
+            </p>
+            <p>
+                Instagram:<a href="https://www.instagram.com/filo.stf/">@filo.stf</a>
+            </p>
+        </div>
+
+        <!--Formulario de contacto-->
         <div class="subtitulo">
             <h2>
                 Dejanos tu consulta
             </h2>
         </div>
 
-        <!--Nuestros datos-->
-        <div class="datos__contacto">
-            <p>
-                Tel: +54 (0351) xxx xx xx
-            </p>
-            <p>
-                E-mail: Filo.stf@gmail.com
-            </p>
-        </div>
-
-        <!--Formulario de contacto-->
-        <div class="conteiner__formulario">
-            <form name="contacto">
-                <p>
-                    <label for="name">Nombre:</label><br>
-                    <input type="text" placeholder="Ingrese su nombre" required>
-                </p>
-                <p>
-                    <label for="lastname">Apellido:</label><br>
-                    <input type="text" placeholder="Ingrese su apellido" required>
-                </p>
-                <p>
-                    <label for="email">E-mail</label><br>
-                    <input type="email" placeholder="Ingrese su e-mail" required>
-                </p>
-                <p>
-                    <label for="consulta">Consulta:</label><br>
-                    <textarea name="" id="" cols="50" rows="5"></textarea>
-                </p>
-                <p>
-                    <input type="submit" name="submit">
-                </p>
+        <div class="flex-conteiner">
+            <form class="form">
+                <div class="form__section">
+                    <input type="text" placeholder="Ingrese su nombre*" required class="form__input">
+                </div>
+                <div class="form__section">
+                    <input type="text" placeholder="Ingrese su apellido*" required class="form__input">
+                </div>
+                <div class="form__section">
+                    <input type="email" placeholder="Ingrese su e-mail*" required class="form__input">
+                </div>
+                <div class="form__section">
+                    <textarea class="form__input" placeholder="Escriba aquí su consulta"></textarea>
+                </div>
+                <div class="form__section">
+                    <input type="submit" name="submit" class="form__input">
+                </div>
             </form>
+            <div class="form__img">
+                <img src="../image/cartaEnMesa.jpeg" alt="imagen de menu sobre mesa">
+            </div>
         </div>
         <!--Fin formulario de contacto-->
+
         <!--Horarios-->
-        <div class="horarios__contacto">
-            <h4>HORARIOS:</h4>
-            <p>
-                martes a viernes de 12 a 14.30hs
-            </p>
-            <p>
-                martes a domingo de 20 a 23hs
-            </p>
-            <p>
-                lunes cerrado
-            </p>
+        
+        <div class="horarios-conteiner">
+            <div class="horarios">
+                <h4>HORARIOS:</h4>
+                <p>
+                    martes a viernes de 12 a 14.30hs
+                </p>
+                <p>
+                    martes a domingo de 20 a 23hs
+                </p>
+                <p>
+                    lunes cerrado
+                </p>
+            </div>
         </div>
-        <!--Maps de Google-->
+        <!--Google Maps-->
+        <div class="ubicacion">
+            <h5>Nuestra ubicación:</h5>
+        </div>
+
         <div class="map__responsive">
-            <p>Nuestra ubicación:</p>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8315421197963!2d-64.1710317827118!3d-31.418767074735303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f75b747e475380f!2sFILO%20Street%20Food!5e0!3m2!1ses-419!2sar!4v1669755246433!5m2!1ses-419!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2095996565099!2d-64.1708952879814!3d-31.41857819087611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f75b747e475380f!2sFILO%20Street%20Food!5e0!3m2!1ses-419!2sar!4v1671768759747!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <!--fin contenido principal-->
 
-    <!--comienzo pie de página-->
-    <footer class="footer">
-        <div class="footer__conteiner">
-            <div class="footer__logo">
-                <img src="../image/logo/filo_logo_blanco.png" alt="logopie">
+    <!--inicio pie de página-->
+    <footer>
+        <div class="footer-conteiner">
+
+            <div class="footer__img">
+                <img src="../image/logo/filo_logo_blanco.png" alt="logo pie de pagina">
             </div>
 
             <div>
