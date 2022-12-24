@@ -114,18 +114,23 @@ body {
     display: flex;
     padding: 30px;
     margin: auto;
+    flex-wrap: wrap;
+    align-items: stretch;
 
 }
 
-.felx__item-img {
+.felx__item-menu {
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
-.felx__conteiner-menu img {
-    justify-content: center;
-}
+.felx__item-menu img {
+    border: 8px solid #302a2a;
+    width: 100%;
 
+}
 
 /*Página Nosotros*/
 .sobre__nos {
