@@ -12,6 +12,10 @@ body {
 
 }
 
+.nav__ul {
+    display: inline-block;
+}
+
 .nav__li {
     display: inline-block;
     padding: 10px;
@@ -29,6 +33,14 @@ body {
 .nav__li a:hover {
     color: #bbb;
 
+}
+
+@media only screen and (max-width: 767px) {
+    nav ul{
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /*Página principal*/
